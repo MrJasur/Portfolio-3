@@ -174,4 +174,21 @@ body {
   background-color: #000000;
   color: #fff; }
 
+.about {
+  padding-top: 150px; }
+
+.about_title p {
+  color: #3BAEFF; }
+.about_title h1 {
+  padding-bottom: 50px; }
+
+.about_body p {
+  font-size: 17px; }
+.about_body ul li {
+  line-height: 35px;
+  list-style: none; }
+  .about_body ul li i {
+    padding-right: 10px;
+    font-size: 20px; }
+
 /*# sourceMappingURL=style.css.map */

@@ -284,3 +284,40 @@ body{
     color: #fff;
 }
 
+//More about our company
+
+.about{
+    padding-top: 150px;
+}
+.about_title{
+    p{
+        color: #3BAEFF;
+    }
+    h1{
+        padding-bottom: 50px;
+    }
+}
+
+.about_body{
+    p{
+       font-size: 17px; 
+    }
+    ul{
+        li{
+            line-height: 35px;
+            i{
+                padding-right: 10px;
+                font-size: 20px;
+                
+            }
+            span{
+                
+            }
+            list-style: none;
+        }
+    }
+}
+
+.about_lines{
+    
+}
