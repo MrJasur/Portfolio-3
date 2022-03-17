@@ -287,7 +287,8 @@ body{
 //More about our company
 
 .about{
-    padding-top: 150px;
+    padding: 150px 0;
+    padding-bottom: 250px;
 }
 .about_title{
     p{
@@ -300,24 +301,52 @@ body{
 
 .about_body{
     p{
-       font-size: 17px; 
+        font-size: 20px;
     }
-    ul{
-        li{
-            line-height: 35px;
-            i{
-                padding-right: 10px;
-                font-size: 20px;
-                
+    .about_lines{
+        padding: 25px 0;
+        ul{
+            margin-left: 0;
+            padding-left: 0;
+            li{
+                line-height: 35px;
+                font-size: 18px;
+                list-style: none;
+                i{
+                    font-size: 25px;
+                    color: #2D3092;
+                }
             }
-            span{
-                
-            }
-            list-style: none;
         }
     }
 }
 
-.about_lines{
-    
+.about_btn{
+    button{
+        font-size: 2vw;
+        padding: 10px 20px;
+        background-color: #292C93;
+        color: #FFFFFF;
+        border: none;
+        border-radius: 5px;
+    }
 }
+
+
+.rasm1, .rasm2{
+    display: inline-block;
+    position: absolute;
+    img{
+        
+        // display: inline-block;
+    }
+}
+
+.rasm2{
+    margin-top: 2rem;
+   margin-left: 24rem;
+  img{
+      
+  }
+}
+
